@@ -1,0 +1,70 @@
+<!-- Devlop an HTML from with various input elements. Use CSS to style the from, including setting background colors for inputs fileds. Create
+a custom palette for the from elemants, and demonstrate how to apply opacity to one of the sections. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .firstName {
+            background-color: chartreuse;
+            color: blue;
+        }
+
+        .LastName {
+            background-color: aqua;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="" target="_blank">
+        <label for="firstName">First Name:
+        <input type="text" name="firstName" class="firstName" placeholder="sanket" id="firstName" required min="5" />
+        </label>
+        <br>
+
+        <label for="LastName">Last Name:
+            <input type="text" name="LastName" class="LastName" id="LastName" placeholder="Admane" required >
+        </label>
+        <br>
+
+        <label for="Email">Email:
+            <input type="email" name="Email" class="Email" id="Email" placeholder="Sanket1@gmail.com" required >
+        </label>
+
+        <label for="password">password:
+            <input type="password" name="password" class="password" id="password" placeholder="*******">
+        </label>
+        <br>
+
+        <label for="confirmPassword">Confirm password:
+            <input type="confirmPassword" name="confirmPassword" class="confirmPassword" id="confirmPassword" >
+        </label>
+        <br>
+
+        <label for="age">Age:
+            <input type="age" name="age" class="age" />
+        </label>
+        <br>
+
+        <label for="">Gender:
+            <input type="radio" id="male" value="male" name="Gender" checked />
+            <label for="male">Male</label>
+
+            <input type="radio" id="femal" value="female" name="Gender" checked />
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" value="other" name="Gender" checked />
+            <label for="other">Other</label>
+        </label>
+        <br>
+
+        <button type="submit">Register</button>
+
+
+    </form>
+</body>
+</html>
